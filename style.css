@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+.dock {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100vw - 20px);
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 20px;
+
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.dock a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    justify-self: start;
+}
+
+.web {
+    font-family: "Imperial Script", cursive;
+    font-size: 25px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.nav {
+    justify-self: center;
+    display: flex;
+    gap: 100px;
+}
+
+.auth {
+    justify-self: end;
+}
