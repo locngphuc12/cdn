@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
 
 .dock {
     position: fixed;
@@ -49,4 +50,52 @@
 
 .auth {
     justify-self: end;
+}
+
+.welcome {
+    padding: 0 20px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 20px;
+}
+
+.welcome h2 {
+    margin: 15px 0;
+}
+
+.welcome p {
+    margin: 0 0;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1.7fr 1.5fr 1.5fr 1.5fr;
+    gap: 10px;
+    padding: 60px 2px;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 18px;
+}
+
+#load {
+    font-family: "JetBrains Mono", monospace;
+    margin: 0;
+    white-space: nowrap;
+}
+
+#storage-left {
+    font-family: "JetBrains Mono", monospace;
+    margin: 10px 0 0;
+    align-self: flex-end;
+}
+
+.widget {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: 10px;
+    padding: 5px;
+}
+
+.widget p {
+    margin: 0;
 }
