@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
 
 .dock {
     position: fixed;
@@ -53,17 +52,20 @@
 }
 
 .welcome {
-    padding: 0 20px;
+    padding: 0 0 0 20px;
     font-family: "Pixelify Sans", sans-serif;
     font-size: 20px;
+
 }
 
 .welcome h2 {
-    margin: 15px 0;
+    margin: 15px 0 10px;
 }
 
 .welcome p {
     margin: 0 0;
+    font-family: "Georgia", serif;
+    font-size: 16px;
 }
 
 .dashboard {
@@ -83,8 +85,9 @@
 }
 
 #storage-left {
-    font-family: "JetBrains Mono", monospace;
-    margin: 10px 0 0;
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    margin: 5px 0 0;
     align-self: flex-end;
 }
 
@@ -98,4 +101,40 @@
 
 .widget p {
     margin: 0;
+}
+
+.chart-bandwidth {
+    margin: 5px 0;
+    border: 1px solid black;
+    width: 300px;
+    height: 75px;
+}
+
+.chart-bandwidth polyline {
+    stroke: blue;
+    fill: none;
+    stroke-width: 5px;
+}
+
+.chart-bandwidth .area {
+    fill: blue;
+    opacity: 0.1;
+}
+
+.chart-requests {
+    margin: 5px 0;
+    border: 1px solid black;
+    width: 300px;
+    height: 75px;
+}
+
+.chart-requests polyline {
+    stroke: red;
+    fill: none;
+    stroke-width: 5px;
+}
+
+.chart-requests .area {
+    fill: red;
+    opacity: 0.1;
 }
