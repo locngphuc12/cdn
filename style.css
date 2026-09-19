@@ -72,22 +72,22 @@
     display: grid;
     grid-template-columns: 1.7fr 1.5fr 1.5fr 1.5fr;
     gap: 10px;
-    padding: 60px 2px;
+    padding: 60px 2px 2px 0;
 
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 18px;
 }
 
 #load {
     font-family: "JetBrains Mono", monospace;
-    margin: 0;
+    margin: 5px 0 0;
     white-space: nowrap;
 }
 
 #storage-left {
     font-family: "Georgia", serif;
     font-size: 16px;
-    margin: 5px 0 0;
+    margin: 10px 0 0;
     align-self: flex-end;
 }
 
@@ -137,4 +137,34 @@
 .chart-requests .area {
     fill: red;
     opacity: 0.1;
+}
+
+.workplace {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    font-family: "Georgia", serif;
+    margin: 20px 10px;
+}
+
+.canvas h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.canvas p {
+    margin: 0 0 10px;
+}
+
+#board {
+    width: 95%;
+    height: 420px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.drive h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    margin: 10px;
 }

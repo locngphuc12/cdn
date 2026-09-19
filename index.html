@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The CDN Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 <div class="dock">
@@ -27,12 +28,12 @@
         <p>What do you want to ship today?</p>
     </div>
     <div class="widget">
-        <p>Storage</p>
+        <p><strong>Storage</strong></p>
         <p id="load">████████████░░░░░░░░░░░░░░░</p>
         <p id="storage-left">1GB left</p>
     </div>
     <div class="widget">
-        <p>Bandwidth</p>
+        <p><strong>Bandwidth</strong></p>
         <svg class="chart-bandwidth" viewBox="0 0 400 100">
             <path class="area"
                   d="M0 80
@@ -58,7 +59,7 @@
         </svg>
     </div>
     <div class="widget">
-        <p>Requests</p>
+        <p><strong>Requests</strong></p>
 
         <svg class="chart-requests" viewBox="0 0 400 100">
             <path class="area"
@@ -84,6 +85,16 @@
                 "
             />
         </svg>
+    </div>
+</section>
+<section class="workplace">
+    <div class="canvas">
+        <h2>The canvas</h2>
+        <p>Doing stuff with your files here👇</p>
+        <canvas id="board"></canvas>
+    </div>
+    <div class="drive">
+        <h2>Your files</h2>
     </div>
 </section>
 </body>
